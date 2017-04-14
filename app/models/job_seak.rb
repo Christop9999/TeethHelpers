@@ -1,0 +1,2 @@
+class JobSeak < ApplicationRecord
+end

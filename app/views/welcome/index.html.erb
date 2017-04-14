@@ -1,2 +1,40 @@
-<h1>Hello World</h1>
-<p>Yea, it's working</p>
+<body>
+
+    <div class="container">
+      
+      <div class="jumbotron">
+        <h1 class="display-3">Demand Dental</h1>
+        <p class="lead">Our goal is to help connect qualified dental professionals connect with on demand work</p>
+        <div class="flex">
+        <p><a class="btn btn-lg btn-success flex-child" href="welcome/find" role="button">Looking for Work</a></p>
+        <p><a class="btn btn-lg btn-success flex-child" href="welcome/create" role="button">Need Help</a></p>
+      </div>
+    </div>
+
+      <div class="row marketing" id="about">
+        <div class="col-lg-6">
+          <h4>How it <works></works></h4>
+          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+          <%= link_to('click me', {:welcome => 'welcome', :action => 'create', :page => 5, :id => 20}) %><br />
+          <h4>For Dentists</h4>
+          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+
+          <h4>For dental professionals</h4>
+          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+        </div>
+
+
+
+      <footer class="footer">
+        <p>&copy; Company 2017</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
